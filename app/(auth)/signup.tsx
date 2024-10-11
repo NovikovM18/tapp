@@ -3,11 +3,11 @@ import React from 'react'
 import { Href, Link } from 'expo-router';
 import colors from '@/constants/colors';
 
-const Login = () => {
+const Signup = () => {
   return (
     <View style={styles.container}>
-      <Text>Login</Text>
-      <Link href={"/signup" as Href} style={[styles.link, {color: colors.blue}]}>signup</Link>
+      <Text>Signup</Text>
+      <Link href={"/login" as Href} style={[styles.link, {color: colors.blue}]}>login</Link>
     </View>
   )
 }
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Login
+export default Signup
