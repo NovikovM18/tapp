@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
-const Home = () => {
+const Info = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
+      <Text style={styles.title}>Info</Text>
     </View>
   )
 }
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Home
+export default Info
